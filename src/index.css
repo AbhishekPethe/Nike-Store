@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color:#F3FDE8;
+    /* background-color: black; */
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.bg-color-shape{
+    background: rgb(15,222,255);
+    background: linear-gradient(165deg, rgba(15,222,255,1) 0%, rgba(30,67,228,1) 100%);
+    clip-path: polygon(0 0 , 100% 0 , 100% 100% , 0 70%);
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.stroke-text{
+    -webkit-text-stroke:12px rgb(175, 167, 167);
+    -webkit-text-fill-color:transparent;
+}
+
+.stroke-text-sm{
+    -webkit-text-stroke:4px rgb(175, 167, 167);
+    -webkit-text-fill-color:transparent;
+}
+
+  
